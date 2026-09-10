@@ -1,0 +1,393 @@
+case_id,location_label_id,location_name,n_aneurysms_in_case
+topaneu_center1_mr_017,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center1_mr_024,23,L-3.1 ICA infraclinoid C1-C5,3
+topaneu_center1_mr_024,24,R-3.2 ICA C6-OA-junction,3
+topaneu_center1_mr_024,25,L-3.2 ICA C6-OA-junction,3
+topaneu_center1_mr_028,32,R-3.6 ICA C7-nonBranch,1
+topaneu_center1_mr_033,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center1_mr_056,26,R-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_085,34,R-3.7 ICA C7-terminus,2
+topaneu_center1_mr_085,35,L-3.7 ICA C7-terminus,2
+topaneu_center1_mr_092,27,L-3.3 ICA C6-nonOA,2
+topaneu_center1_mr_092,35,L-3.7 ICA C7-terminus,2
+topaneu_center1_mr_113,36,4.1 Acom complex,1
+topaneu_center1_mr_129,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_148,29,L-3.4 ICA C7-Pcom-junction,1
+topaneu_center1_mr_177,39,R-4.3 A2,1
+topaneu_center1_mr_184,36,4.1 Acom complex,1
+topaneu_center1_mr_191,23,L-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_191,36,4.1 Acom complex,2
+topaneu_center1_mr_193,35,L-3.7 ICA C7-terminus,1
+topaneu_center1_mr_198,50,L-5.3 M1-M2 junction,1
+topaneu_center1_mr_200,7,1.4 BA trunk,3
+topaneu_center1_mr_200,19,L-2.1 P1P2,3
+topaneu_center1_mr_200,27,L-3.3 ICA C6-nonOA,3
+topaneu_center1_mr_210,34,R-3.7 ICA C7-terminus,3
+topaneu_center1_mr_210,46,L-5.1 M1 trunk,3
+topaneu_center1_mr_210,48,L-5.2 M1 early bifurcation,3
+topaneu_center1_mr_251,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_262,6,L-1.3 VA-PICA junction,2
+topaneu_center1_mr_262,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_264,48,L-5.2 M1 early bifurcation,1
+topaneu_center1_mr_301,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_302,36,4.1 Acom complex,1
+topaneu_center1_mr_308,49,R-5.3 M1-M2 junction,1
+topaneu_center1_mr_325,8,1.5 VA-BA junction,2
+topaneu_center1_mr_325,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_336,36,4.1 Acom complex,1
+topaneu_center1_mr_342,49,R-5.3 M1-M2 junction,1
+topaneu_center1_mr_354,46,L-5.1 M1 trunk,1
+topaneu_center1_mr_359,27,L-3.3 ICA C6-nonOA,2
+topaneu_center1_mr_359,36,4.1 Acom complex,2
+topaneu_center1_mr_364,26,R-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_401,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_401,27,L-3.3 ICA C6-nonOA,2
+topaneu_center1_mr_411,27,L-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_428,50,L-5.3 M1-M2 junction,1
+topaneu_center1_mr_439,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_443,36,4.1 Acom complex,1
+topaneu_center1_mr_474,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center1_mr_489,36,4.1 Acom complex,1
+topaneu_center1_mr_494,22,R-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_509,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_516,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_516,49,R-5.3 M1-M2 junction,2
+topaneu_center1_mr_523,16,L-1.9 BA-SCA junction,2
+topaneu_center1_mr_523,32,R-3.6 ICA C7-nonBranch,2
+topaneu_center1_mr_525,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_525,49,R-5.3 M1-M2 junction,2
+topaneu_center1_mr_527,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_528,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center1_mr_538,36,4.1 Acom complex,1
+topaneu_center1_mr_560,22,R-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_561,15,R-1.9 BA-SCA junction,1
+topaneu_center1_mr_572,26,R-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_581,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_585,11,R-1.7 BA-AICA junction,1
+topaneu_center1_mr_612,36,4.1 Acom complex,1
+topaneu_center1_mr_625,35,L-3.7 ICA C7-terminus,2
+topaneu_center1_mr_625,49,R-5.3 M1-M2 junction,2
+topaneu_center1_mr_626,49,R-5.3 M1-M2 junction,1
+topaneu_center1_mr_630,36,4.1 Acom complex,1
+topaneu_center1_mr_647,49,R-5.3 M1-M2 junction,1
+topaneu_center1_mr_664,22,R-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_670,26,R-3.3 ICA C6-nonOA,2
+topaneu_center1_mr_670,50,L-5.3 M1-M2 junction,2
+topaneu_center1_mr_681,35,L-3.7 ICA C7-terminus,1
+topaneu_center1_mr_682,40,L-4.3 A2,1
+topaneu_center1_mr_694,34,R-3.7 ICA C7-terminus,1
+topaneu_center1_mr_702,25,L-3.2 ICA C6-OA-junction,2
+topaneu_center1_mr_702,26,R-3.3 ICA C6-nonOA,2
+topaneu_center1_mr_720,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_741,27,L-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_742,27,L-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_744,31,L-3.5 ICA C7-AChA-junction,1
+topaneu_center1_mr_750,50,L-5.3 M1-M2 junction,1
+topaneu_center1_mr_765,27,L-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_772,23,L-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_772,26,R-3.3 ICA C6-nonOA,2
+topaneu_center1_mr_774,30,R-3.5 ICA C7-AChA-junction,1
+topaneu_center1_mr_776,34,R-3.7 ICA C7-terminus,1
+topaneu_center1_mr_789,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center1_mr_792,50,L-5.3 M1-M2 junction,1
+topaneu_center1_mr_795,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_795,27,L-3.3 ICA C6-nonOA,2
+topaneu_center1_mr_800,21,L-2.2 P3P4,1
+topaneu_center1_mr_804,50,L-5.3 M1-M2 junction,1
+topaneu_center1_mr_807,36,4.1 Acom complex,1
+topaneu_center1_mr_810,50,L-5.3 M1-M2 junction,1
+topaneu_center1_mr_816,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center1_mr_842,49,R-5.3 M1-M2 junction,1
+topaneu_center1_mr_877,5,R-1.3 VA-PICA junction,2
+topaneu_center1_mr_877,47,R-5.2 M1 early bifurcation,2
+topaneu_center1_mr_892,37,R-4.2 A1,1
+topaneu_center1_mr_895,8,1.5 VA-BA junction,4
+topaneu_center1_mr_895,41,R-4.4 A3,4
+topaneu_center1_mr_895,47,R-5.2 M1 early bifurcation,4
+topaneu_center1_mr_895,48,L-5.2 M1 early bifurcation,4
+topaneu_center1_mr_909,27,L-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_917,23,L-3.1 ICA infraclinoid C1-C5,2
+topaneu_center1_mr_917,36,4.1 Acom complex,2
+topaneu_center1_mr_926,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center1_mr_928,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center1_mr_975,26,R-3.3 ICA C6-nonOA,1
+topaneu_center1_mr_981,50,L-5.3 M1-M2 junction,1
+topaneu_center1_mr_991,17,1.10 BA tip,1
+topaneu_center2_ct_105,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center2_ct_107,26,R-3.3 ICA C6-nonOA,1
+topaneu_center2_ct_108,41,R-4.4 A3,1
+topaneu_center2_ct_109,36,4.1 Acom complex,1
+topaneu_center2_ct_112,49,R-5.3 M1-M2 junction,1
+topaneu_center2_ct_113,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center2_ct_118,36,4.1 Acom complex,2
+topaneu_center2_ct_118,47,R-5.2 M1 early bifurcation,2
+topaneu_center2_ct_119,49,R-5.3 M1-M2 junction,1
+topaneu_center2_ct_120,51,R-5.3 Distal-M2M3,1
+topaneu_center2_ct_125,42,L-4.4 A3,1
+topaneu_center2_ct_126,49,R-5.3 M1-M2 junction,2
+topaneu_center2_ct_126,50,L-5.3 M1-M2 junction,2
+topaneu_center2_ct_127,41,R-4.4 A3,1
+topaneu_center2_ct_128,24,R-3.2 ICA C6-OA-junction,1
+topaneu_center2_ct_130,28,R-3.4 ICA C7-Pcom-junction,2
+topaneu_center2_ct_130,34,R-3.7 ICA C7-terminus,2
+topaneu_center2_ct_134,29,L-3.4 ICA C7-Pcom-junction,1
+topaneu_center2_ct_137,17,1.10 BA tip,1
+topaneu_center2_ct_138,36,4.1 Acom complex,1
+topaneu_center2_ct_141,36,4.1 Acom complex,2
+topaneu_center2_ct_141,42,L-4.4 A3,2
+topaneu_center2_ct_142,49,R-5.3 M1-M2 junction,1
+topaneu_center2_ct_144,36,4.1 Acom complex,1
+topaneu_center2_ct_147,36,4.1 Acom complex,1
+topaneu_center2_ct_150,32,R-3.6 ICA C7-nonBranch,4
+topaneu_center2_ct_150,45,R-5.1 M1 trunk,4
+topaneu_center2_ct_150,46,L-5.1 M1 trunk,4
+topaneu_center2_ct_150,47,R-5.2 M1 early bifurcation,4
+topaneu_center2_ct_154,5,R-1.3 VA-PICA junction,1
+topaneu_center2_ct_156,7,1.4 BA trunk,1
+topaneu_center2_ct_160,45,R-5.1 M1 trunk,2
+topaneu_center2_ct_160,50,L-5.3 M1-M2 junction,2
+topaneu_center2_ct_161,36,4.1 Acom complex,1
+topaneu_center2_ct_162,17,1.10 BA tip,1
+topaneu_center2_ct_163,30,R-3.5 ICA C7-AChA-junction,1
+topaneu_center2_ct_164,38,L-4.2 A1,1
+topaneu_center2_ct_165,30,R-3.5 ICA C7-AChA-junction,1
+topaneu_center2_ct_166,17,1.10 BA tip,2
+topaneu_center2_ct_166,24,R-3.2 ICA C6-OA-junction,2
+topaneu_center2_ct_167,6,L-1.3 VA-PICA junction,1
+topaneu_center2_ct_169,45,R-5.1 M1 trunk,1
+topaneu_center2_ct_170,35,L-3.7 ICA C7-terminus,1
+topaneu_center2_ct_171,47,R-5.2 M1 early bifurcation,1
+topaneu_center2_ct_172,17,1.10 BA tip,4
+topaneu_center2_ct_172,28,R-3.4 ICA C7-Pcom-junction,4
+topaneu_center2_ct_172,29,L-3.4 ICA C7-Pcom-junction,4
+topaneu_center2_ct_172,49,R-5.3 M1-M2 junction,4
+topaneu_center2_ct_173,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center2_ct_174,28,R-3.4 ICA C7-Pcom-junction,2
+topaneu_center2_ct_174,30,R-3.5 ICA C7-AChA-junction,2
+topaneu_center2_ct_175,50,L-5.3 M1-M2 junction,1
+topaneu_center2_ct_184,50,L-5.3 M1-M2 junction,1
+topaneu_center2_ct_189,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center2_ct_190,49,R-5.3 M1-M2 junction,1
+topaneu_center2_ct_191,31,L-3.5 ICA C7-AChA-junction,1
+topaneu_center2_ct_192,24,R-3.2 ICA C6-OA-junction,2
+topaneu_center2_ct_192,30,R-3.5 ICA C7-AChA-junction,2
+topaneu_center2_ct_193,49,R-5.3 M1-M2 junction,1
+topaneu_center2_ct_196,36,4.1 Acom complex,3
+topaneu_center2_ct_196,39,R-4.3 A2,3
+topaneu_center2_ct_196,49,R-5.3 M1-M2 junction,3
+topaneu_center2_ct_197,37,R-4.2 A1,1
+topaneu_center2_mr_002,50,L-5.3 M1-M2 junction,1
+topaneu_center2_mr_004,17,1.10 BA tip,2
+topaneu_center2_mr_004,49,R-5.3 M1-M2 junction,2
+topaneu_center2_mr_007,47,R-5.2 M1 early bifurcation,1
+topaneu_center2_mr_010,26,R-3.3 ICA C6-nonOA,1
+topaneu_center2_mr_011,36,4.1 Acom complex,1
+topaneu_center2_mr_012,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center2_mr_012,47,R-5.2 M1 early bifurcation,2
+topaneu_center2_mr_016,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center2_mr_017,36,4.1 Acom complex,1
+topaneu_center2_mr_018,36,4.1 Acom complex,1
+topaneu_center2_mr_019,22,R-3.1 ICA infraclinoid C1-C5,1
+topaneu_center2_mr_020,26,R-3.3 ICA C6-nonOA,1
+topaneu_center2_mr_025,49,R-5.3 M1-M2 junction,1
+topaneu_center2_mr_028,22,R-3.1 ICA infraclinoid C1-C5,1
+topaneu_center2_mr_029,24,R-3.2 ICA C6-OA-junction,1
+topaneu_center2_mr_031,45,R-5.1 M1 trunk,1
+topaneu_center2_mr_032,47,R-5.2 M1 early bifurcation,2
+topaneu_center2_mr_032,49,R-5.3 M1-M2 junction,2
+topaneu_center2_mr_034,22,R-3.1 ICA infraclinoid C1-C5,1
+topaneu_center2_mr_035,47,R-5.2 M1 early bifurcation,1
+topaneu_center2_mr_038,50,L-5.3 M1-M2 junction,1
+topaneu_center2_mr_042,27,L-3.3 ICA C6-nonOA,1
+topaneu_center2_mr_044,34,R-3.7 ICA C7-terminus,1
+topaneu_center2_mr_047,49,R-5.3 M1-M2 junction,1
+topaneu_center2_mr_048,49,R-5.3 M1-M2 junction,1
+topaneu_center2_mr_049,49,R-5.3 M1-M2 junction,1
+topaneu_center2_mr_050,49,R-5.3 M1-M2 junction,1
+topaneu_center2_mr_051,50,L-5.3 M1-M2 junction,1
+topaneu_center2_mr_054,36,4.1 Acom complex,1
+topaneu_center2_mr_055,22,R-3.1 ICA infraclinoid C1-C5,1
+topaneu_center2_mr_056,49,R-5.3 M1-M2 junction,1
+topaneu_center2_mr_057,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center2_mr_058,36,4.1 Acom complex,1
+topaneu_center2_mr_069,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center2_mr_074,22,R-3.1 ICA infraclinoid C1-C5,4
+topaneu_center2_mr_074,28,R-3.4 ICA C7-Pcom-junction,4
+topaneu_center2_mr_074,29,L-3.4 ICA C7-Pcom-junction,4
+topaneu_center2_mr_074,50,L-5.3 M1-M2 junction,4
+topaneu_center2_mr_077,29,L-3.4 ICA C7-Pcom-junction,2
+topaneu_center2_mr_077,31,L-3.5 ICA C7-AChA-junction,2
+topaneu_center2_mr_078,37,R-4.2 A1,2
+topaneu_center2_mr_078,50,L-5.3 M1-M2 junction,2
+topaneu_center2_mr_079,49,R-5.3 M1-M2 junction,1
+topaneu_center2_mr_080,17,1.10 BA tip,4
+topaneu_center2_mr_080,41,R-4.4 A3,4
+topaneu_center2_mr_080,49,R-5.3 M1-M2 junction,4
+topaneu_center2_mr_080,50,L-5.3 M1-M2 junction,4
+topaneu_center2_mr_083,23,L-3.1 ICA infraclinoid C1-C5,3
+topaneu_center2_mr_083,25,L-3.2 ICA C6-OA-junction,3
+topaneu_center2_mr_083,26,R-3.3 ICA C6-nonOA,3
+topaneu_center2_mr_085,6,L-1.3 VA-PICA junction,4
+topaneu_center2_mr_085,19,L-2.1 P1P2,4
+topaneu_center2_mr_085,31,L-3.5 ICA C7-AChA-junction,4
+topaneu_center2_mr_085,49,R-5.3 M1-M2 junction,4
+topaneu_center2_mr_086,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center2_mr_086,26,R-3.3 ICA C6-nonOA,2
+topaneu_center4_ct_002,27,L-3.3 ICA C6-nonOA,3
+topaneu_center4_ct_002,29,L-3.4 ICA C7-Pcom-junction,3
+topaneu_center4_ct_002,50,L-5.3 M1-M2 junction,3
+topaneu_center4_ct_005,29,L-3.4 ICA C7-Pcom-junction,1
+topaneu_center4_ct_008_1,47,R-5.2 M1 early bifurcation,1
+topaneu_center4_ct_008_2,47,R-5.2 M1 early bifurcation,1
+topaneu_center4_ct_009,48,L-5.2 M1 early bifurcation,1
+topaneu_center4_ct_012,36,4.1 Acom complex,1
+topaneu_center4_ct_019,29,L-3.4 ICA C7-Pcom-junction,1
+topaneu_center4_ct_020_1,36,4.1 Acom complex,1
+topaneu_center4_ct_020_2,36,4.1 Acom complex,1
+topaneu_center4_ct_020_3,36,4.1 Acom complex,1
+topaneu_center4_ct_023,32,R-3.6 ICA C7-nonBranch,1
+topaneu_center4_ct_025_1,49,R-5.3 M1-M2 junction,1
+topaneu_center4_ct_025_2,49,R-5.3 M1-M2 junction,2
+topaneu_center4_ct_025_2,50,L-5.3 M1-M2 junction,2
+topaneu_center4_ct_030,36,4.1 Acom complex,1
+topaneu_center4_ct_034_1,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center4_ct_034_2,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center4_ct_037,36,4.1 Acom complex,1
+topaneu_center4_ct_041,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center4_ct_042_2,47,R-5.2 M1 early bifurcation,2
+topaneu_center4_ct_042_2,50,L-5.3 M1-M2 junction,2
+topaneu_center4_ct_045,27,L-3.3 ICA C6-nonOA,1
+topaneu_center4_ct_047,49,R-5.3 M1-M2 junction,1
+topaneu_center4_ct_048,50,L-5.3 M1-M2 junction,1
+topaneu_center4_ct_051_1,36,4.1 Acom complex,1
+topaneu_center4_ct_051_2,36,4.1 Acom complex,1
+topaneu_center4_ct_055,5,R-1.3 VA-PICA junction,1
+topaneu_center4_ct_057,48,L-5.2 M1 early bifurcation,1
+topaneu_center4_ct_059,30,R-3.5 ICA C7-AChA-junction,2
+topaneu_center4_ct_059,32,R-3.6 ICA C7-nonBranch,2
+topaneu_center4_ct_060,17,1.10 BA tip,2
+topaneu_center4_ct_060,36,4.1 Acom complex,2
+topaneu_center4_ct_062_1,49,R-5.3 M1-M2 junction,2
+topaneu_center4_ct_062_1,50,L-5.3 M1-M2 junction,2
+topaneu_center4_ct_062_2,49,R-5.3 M1-M2 junction,1
+topaneu_center4_ct_063,29,L-3.4 ICA C7-Pcom-junction,1
+topaneu_center4_ct_064,36,4.1 Acom complex,1
+topaneu_center4_ct_065,49,R-5.3 M1-M2 junction,1
+topaneu_center4_ct_067,36,4.1 Acom complex,1
+topaneu_center4_ct_070,36,4.1 Acom complex,1
+topaneu_center4_ct_072,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center4_ct_074,27,L-3.3 ICA C6-nonOA,2
+topaneu_center4_ct_074,29,L-3.4 ICA C7-Pcom-junction,2
+topaneu_center4_ct_083,16,L-1.9 BA-SCA junction,4
+topaneu_center4_ct_083,30,R-3.5 ICA C7-AChA-junction,4
+topaneu_center4_ct_083,31,L-3.5 ICA C7-AChA-junction,4
+topaneu_center4_ct_083,35,L-3.7 ICA C7-terminus,4
+topaneu_center4_ct_087,36,4.1 Acom complex,1
+topaneu_center4_ct_093,17,1.10 BA tip,1
+topaneu_center4_ct_094,49,R-5.3 M1-M2 junction,1
+topaneu_center4_ct_097,28,R-3.4 ICA C7-Pcom-junction,2
+topaneu_center4_ct_097,49,R-5.3 M1-M2 junction,2
+topaneu_center4_ct_101,29,L-3.4 ICA C7-Pcom-junction,2
+topaneu_center4_ct_101,49,R-5.3 M1-M2 junction,2
+topaneu_center4_ct_102,43,R-4.5 Distal ACA branches,2
+topaneu_center4_ct_102,44,L-4.5 Distal ACA branches,2
+topaneu_center4_ct_103,32,R-3.6 ICA C7-nonBranch,1
+topaneu_center4_ct_104,23,L-3.1 ICA infraclinoid C1-C5,2
+topaneu_center4_ct_104,33,L-3.6 ICA C7-nonBranch,2
+topaneu_center4_ct_105,2,L-1.1 VA trunk,2
+topaneu_center4_ct_105,50,L-5.3 M1-M2 junction,2
+topaneu_center4_ct_106,36,4.1 Acom complex,1
+topaneu_center4_ct_107,48,L-5.2 M1 early bifurcation,1
+topaneu_center4_ct_108,28,R-3.4 ICA C7-Pcom-junction,2
+topaneu_center4_ct_108,33,L-3.6 ICA C7-nonBranch,2
+topaneu_center4_ct_115,28,R-3.4 ICA C7-Pcom-junction,1
+topaneu_center4_ct_116,33,L-3.6 ICA C7-nonBranch,1
+topaneu_center4_ct_119,36,4.1 Acom complex,1
+topaneu_center4_ct_122,49,R-5.3 M1-M2 junction,1
+topaneu_center4_ct_127,1,R-1.1 VA trunk,1
+topaneu_center4_ct_129,15,R-1.9 BA-SCA junction,1
+topaneu_center4_ct_134,29,L-3.4 ICA C7-Pcom-junction,2
+topaneu_center4_ct_134,31,L-3.5 ICA C7-AChA-junction,2
+topaneu_center4_ct_140,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center4_ct_193,32,R-3.6 ICA C7-nonBranch,1
+topaneu_center4_ct_200,2,L-1.1 VA trunk,1
+topaneu_center4_ct_201,1,R-1.1 VA trunk,1
+topaneu_center5_mr_007,8,1.5 VA-BA junction,1
+topaneu_center5_mr_009,7,1.4 BA trunk,1
+topaneu_center5_mr_010,2,L-1.1 VA trunk,1
+topaneu_center5_mr_011,7,1.4 BA trunk,1
+topaneu_center5_mr_015,2,L-1.1 VA trunk,1
+topaneu_center5_mr_016,7,1.4 BA trunk,1
+topaneu_center5_mr_021,2,L-1.1 VA trunk,1
+topaneu_center5_mr_022,7,1.4 BA trunk,1
+topaneu_center5_mr_023,8,1.5 VA-BA junction,1
+topaneu_center5_mr_024,7,1.4 BA trunk,1
+topaneu_center5_mr_025,2,L-1.1 VA trunk,1
+topaneu_center5_mr_027,1,R-1.1 VA trunk,1
+topaneu_center5_mr_028,2,L-1.1 VA trunk,1
+topaneu_center5_mr_029,2,L-1.1 VA trunk,1
+topaneu_center5_mr_030,2,L-1.1 VA trunk,1
+topaneu_center5_mr_031,1,R-1.1 VA trunk,1
+topaneu_center5_mr_032,1,R-1.1 VA trunk,1
+topaneu_center5_mr_033,1,R-1.1 VA trunk,1
+topaneu_center5_mr_034,2,L-1.1 VA trunk,1
+topaneu_center5_mr_036,7,1.4 BA trunk,1
+topaneu_center5_mr_037,8,1.5 VA-BA junction,1
+topaneu_center5_mr_038,1,R-1.1 VA trunk,1
+topaneu_center5_mr_039,8,1.5 VA-BA junction,1
+topaneu_center5_mr_041,1,R-1.1 VA trunk,1
+topaneu_center5_mr_052,1,R-1.1 VA trunk,1
+topaneu_center5_mr_061,17,1.10 BA tip,4
+topaneu_center5_mr_061,22,R-3.1 ICA infraclinoid C1-C5,4
+topaneu_center5_mr_061,23,L-3.1 ICA infraclinoid C1-C5,4
+topaneu_center5_mr_061,49,R-5.3 M1-M2 junction,4
+topaneu_center5_mr_063,39,R-4.3 A2,1
+topaneu_center5_mr_068,2,L-1.1 VA trunk,1
+topaneu_center5_mr_074,7,1.4 BA trunk,1
+topaneu_center5_mr_079,7,1.4 BA trunk,1
+topaneu_center5_mr_081,2,L-1.1 VA trunk,1
+topaneu_center5_mr_082,8,1.5 VA-BA junction,1
+topaneu_center5_mr_451,37,R-4.2 A1,1
+topaneu_center5_mr_452,30,R-3.5 ICA C7-AChA-junction,2
+topaneu_center5_mr_452,41,R-4.4 A3,2
+topaneu_center5_mr_453,50,L-5.3 M1-M2 junction,1
+topaneu_center5_mr_454,39,R-4.3 A2,1
+topaneu_center5_mr_455,36,4.1 Acom complex,1
+topaneu_center5_mr_457,37,R-4.2 A1,2
+topaneu_center5_mr_457,49,R-5.3 M1-M2 junction,2
+topaneu_center5_mr_458,17,1.10 BA tip,2
+topaneu_center5_mr_458,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center5_mr_459,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center5_mr_460,33,L-3.6 ICA C7-nonBranch,1
+topaneu_center5_mr_461,49,R-5.3 M1-M2 junction,1
+topaneu_center5_mr_462,7,1.4 BA trunk,1
+topaneu_center5_mr_464,41,R-4.4 A3,2
+topaneu_center5_mr_464,42,L-4.4 A3,2
+topaneu_center5_mr_465,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center5_mr_466,25,L-3.2 ICA C6-OA-junction,1
+topaneu_center5_mr_467,36,4.1 Acom complex,1
+topaneu_center5_mr_469,27,L-3.3 ICA C6-nonOA,1
+topaneu_center5_mr_470,27,L-3.3 ICA C6-nonOA,1
+topaneu_center5_mr_471,50,L-5.3 M1-M2 junction,1
+topaneu_center5_mr_472,23,L-3.1 ICA infraclinoid C1-C5,1
+topaneu_center5_mr_473,41,R-4.4 A3,1
+topaneu_center5_mr_474,30,R-3.5 ICA C7-AChA-junction,1
+topaneu_center5_mr_475,49,R-5.3 M1-M2 junction,1
+topaneu_center5_mr_476,27,L-3.3 ICA C6-nonOA,1
+topaneu_center5_mr_478,2,L-1.1 VA trunk,1
+topaneu_center5_mr_479,50,L-5.3 M1-M2 junction,1
+topaneu_center5_mr_480,5,R-1.3 VA-PICA junction,2
+topaneu_center5_mr_480,47,R-5.2 M1 early bifurcation,2
+topaneu_center5_mr_481,26,R-3.3 ICA C6-nonOA,2
+topaneu_center5_mr_481,33,L-3.6 ICA C7-nonBranch,2
+topaneu_center5_mr_484,38,L-4.2 A1,1
+topaneu_center5_mr_485,36,4.1 Acom complex,1
+topaneu_center5_mr_486,33,L-3.6 ICA C7-nonBranch,2
+topaneu_center5_mr_486,49,R-5.3 M1-M2 junction,2
+topaneu_center5_mr_487,22,R-3.1 ICA infraclinoid C1-C5,2
+topaneu_center5_mr_487,34,R-3.7 ICA C7-terminus,2
+topaneu_center5_mr_488,38,L-4.2 A1,1
+topaneu_center5_mr_489,41,R-4.4 A3,1
+topaneu_center5_mr_490,49,R-5.3 M1-M2 junction,1
+topaneu_center5_mr_491,49,R-5.3 M1-M2 junction,1
+topaneu_center5_mr_492,34,R-3.7 ICA C7-terminus,1
