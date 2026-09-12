@@ -1,0 +1,29 @@
+{
+  "experiment": "B0 - Minimal 3D CNN Baseline",
+  "architecture": "Simple3DCNN (4 Conv3D + BN + ReLU + MaxPool + AdaptiveAvgPool + Linear)",
+  "parameter_count": 291585,
+  "input_resolution": "64x64x64",
+  "batch_size": 4,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "epochs": 10,
+  "train_cases": 16,
+  "val_cases": 8,
+  "initial_train_loss": 0.8273613452911377,
+  "final_train_loss": 0.6491900831460953,
+  "final_val_loss": 0.7956028543412685,
+  "auroc": 0.375,
+  "auprc": 0.48333333333333334,
+  "accuracy": 0.5,
+  "sensitivity": 1.0,
+  "specificity": 0.0,
+  "precision": 0.5,
+  "f1": 0.6666666666666666,
+  "confusion_matrix": {
+    "TN": 0,
+    "FP": 4,
+    "FN": 0,
+    "TP": 4
+  },
+  "training_time_seconds": 13.17
+}

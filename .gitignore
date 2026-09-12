@@ -32,3 +32,11 @@ env/
 .idea/
 *.swp
 *.swo
+
+# Large/generated research artifacts
+scratch/checkpoints/
+scratch/pip_cache/
+scratch/dna_src/
+scratch/dynamic_network_architectures-0.3.1.tar.gz
+scratch/phase2_segmentation_predictions/
+scratch/phase3_pilot_outputs/

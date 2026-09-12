@@ -1,0 +1,5 @@
+xai_method,mean_aneurysm_overlap,median_aneurysm_overlap,mean_top5_aneurysm_overlap,mean_vessel_containment,mean_background_attribution,mean_centroid_distance_mm,median_centroid_distance_mm,mean_predicted_vessel_overlap,mean_predicted_aneurysm_overlap,mean_attention_agreement_corr
+gradcam,1.3e-05,1e-06,0.158052,0.00652,0.968477,52.25,46.48,0.004117,0.0,0.0589
+gradcam_plusplus,0.000199,8e-05,0.885126,0.012564,0.987371,49.48,49.78,0.008619,0.000197,0.4973
+cross_attention,0.001788,0.000494,0.835873,0.025857,0.973605,42.41,34.74,0.018949,0.002375,1.0
+integrated_gradients,0.003161,0.000867,0.79348,0.042369,0.956624,39.37,34.44,0.031216,0.003491,0.9037

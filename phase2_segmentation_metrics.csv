@@ -1,0 +1,17 @@
+class_group,class_name,dice,iou,precision,recall,support_voxels
+GLOBAL,Vessel Segmentation (Tree),0.6607,0.4933,0.8607,0.5361,1621627
+GLOBAL,Aneurysm Lesion Segmentation,0.2821,0.1642,0.2855,0.2789,12754
+TERRITORY,Other Posterior Circulation,0.3704,0.2273,0.5563,0.2777,471510
+TERRITORY,Basilar Tip,0.0,0.0,0.0,0.0,622
+TERRITORY,Right Posterior Communicating Artery,0.0,0.0,0.0,0.0,2692
+TERRITORY,Left Posterior Communicating Artery,0.0,0.0,0.0,0.0,2398
+TERRITORY,Right Infraclinoid Internal Carotid Artery,0.2589,0.1487,0.3061,0.2243,289707
+TERRITORY,Left Infraclinoid Internal Carotid Artery,0.1578,0.0857,0.3417,0.1026,310320
+TERRITORY,Right Supraclinoid Internal Carotid Artery,0.0212,0.0107,0.018,0.0257,51351
+TERRITORY,Left Supraclinoid Internal Carotid Artery,0.0098,0.0049,0.0118,0.0084,55069
+TERRITORY,Right Middle Cerebral Artery,0.008,0.004,0.0097,0.0068,166981
+TERRITORY,Left Middle Cerebral Artery,0.1691,0.0924,0.2135,0.14,178766
+TERRITORY,Right Anterior Cerebral Artery,0.0004,0.0002,0.0004,0.0004,48091
+TERRITORY,Left Anterior Cerebral Artery,0.1138,0.0603,0.0916,0.15,47115
+TERRITORY,Anterior Communicating Artery,0.0039,0.0019,0.0037,0.0041,2689
+SUMMARY,Macro Average (13 Territories),0.0856,0.0489,0.1194,0.0723,1627311

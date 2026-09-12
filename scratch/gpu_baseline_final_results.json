@@ -1,0 +1,128 @@
+{
+  "gpu_model": "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "total_vram_mb": 8150.6,
+  "compute_capability": "12.0",
+  "torch_version": "2.14.0+cu130",
+  "sm_120_supported": true,
+  "construction_time_s": 0.416,
+  "parameter_count": 109359299,
+  "weight_vram_mb": 452.6,
+  "inference_input_shape": [
+    1,
+    1,
+    224,
+    224,
+    224
+  ],
+  "inference_time_ms": 1009.6,
+  "inference_peak_vram_mb": 7355.6,
+  "presence_shape": [
+    1,
+    1
+  ],
+  "location_shape": [
+    1,
+    13
+  ],
+  "full_fwd_amp_time_ms": 4091.0,
+  "full_fwd_amp_peak_vram_mb": 7538.7,
+  "modality_shape": [
+    1,
+    4
+  ],
+  "dec1_shapes": [
+    [
+      1,
+      15,
+      224,
+      224,
+      224
+    ],
+    [
+      1,
+      15,
+      112,
+      112,
+      112
+    ],
+    [
+      1,
+      15,
+      56,
+      56,
+      56
+    ],
+    [
+      1,
+      15,
+      28,
+      28,
+      28
+    ],
+    [
+      1,
+      15,
+      14,
+      14,
+      14
+    ]
+  ],
+  "dec2_shapes": [
+    [
+      1,
+      14,
+      224,
+      224,
+      224
+    ],
+    [
+      1,
+      14,
+      112,
+      112,
+      112
+    ],
+    [
+      1,
+      14,
+      56,
+      56,
+      56
+    ],
+    [
+      1,
+      14,
+      28,
+      28,
+      28
+    ],
+    [
+      1,
+      14,
+      14,
+      14,
+      14
+    ]
+  ],
+  "loss_presence": 0.1586,
+  "loss_location": 1.2964,
+  "loss_modality": 0.7347,
+  "total_loss": 0.7299,
+  "train_fwd_time_ms": 4234.5,
+  "backward_time_ms": 25847.0,
+  "backward_peak_vram_mb": 8401.0,
+  "conv1_grad_norm": 1.962398,
+  "head_grad_norm": 3.764435,
+  "real_case_id": "topaneu_center1_mr_017",
+  "real_raw_shape": [
+    376,
+    477,
+    248
+  ],
+  "real_gt_locations": [
+    28
+  ],
+  "real_inference_time_ms": 847.7,
+  "real_peak_vram_mb": 7387.6,
+  "real_predicted_presence_prob": 0.893
+}

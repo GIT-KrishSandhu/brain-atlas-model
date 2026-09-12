@@ -1,0 +1,416 @@
+case_id,ground_truth_location,predicted_location,classification_correct,ground_truth_vessel,predicted_vessel,spatial_alignment_status,notes
+topaneu_center1_mr_001,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_005,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_016,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_017,R-3.4 ICA C7-Pcom-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center1_mr_018,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_024,L-3.1 ICA infraclinoid C1-C5; R-3.2 ICA C6-OA-junction; L-3.2 ICA C6-OA-junction,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Left Supraclinoid Internal Carotid Artery; Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_028,R-3.6 ICA C7-nonBranch,Other Posterior Circulation,False,ICA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_029,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_033,L-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_038,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_049,NEGATIVE,Left Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_050,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_053,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_056,R-3.3 ICA C6-nonOA,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_061,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_064,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_076,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_085,R-3.7 ICA C7-terminus; L-3.7 ICA C7-terminus,Left Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_088,NEGATIVE,Right Pcom,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_092,L-3.3 ICA C6-nonOA; L-3.7 ICA C7-terminus,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_113,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_119,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_121,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_129,L-3.1 ICA infraclinoid C1-C5,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_136,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_138,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_144,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_147,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_148,L-3.4 ICA C7-Pcom-junction,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Posterior Communicating Artery
+topaneu_center1_mr_149,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_157,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_173,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_177,R-4.3 A2,Right MCA,False,ACA,MCA,MISALIGNED,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center1_mr_178,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_184,4.1 Acom complex,Right Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_188,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_189,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_191,L-3.1 ICA infraclinoid C1-C5; 4.1 Acom complex,Right Supraclinoid ICA,False,ICA; ACom,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Anterior Communicating Artery; Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_193,L-3.7 ICA C7-terminus,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_195,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_198,L-5.3 M1-M2 junction,Right MCA,False,MCA,MCA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_200,1.4 BA trunk; L-2.1 P1P2; L-3.3 ICA C6-nonOA,Left Supraclinoid ICA,True,Basilar; ICA; Posterior Circulation,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Other Posterior Circulation; Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_202,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_210,R-3.7 ICA C7-terminus; L-5.1 M1 trunk; L-5.2 M1 early bifurcation,Right Supraclinoid ICA,True,ICA; MCA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Left Middle Cerebral Artery
+topaneu_center1_mr_211,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_213,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_221,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_229,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_241,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_247,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_251,L-3.1 ICA infraclinoid C1-C5,Other Posterior Circulation,False,ICA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_262,L-1.3 VA-PICA junction; R-3.1 ICA infraclinoid C1-C5,Right Infraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Other Posterior Circulation; Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_264,L-5.2 M1 early bifurcation,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_282,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_287,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_290,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_298,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_299,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_301,L-3.1 ICA infraclinoid C1-C5,Other Posterior Circulation,False,ICA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_302,4.1 Acom complex,Left ACA,False,ACom,ACA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_308,R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center1_mr_311,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_316,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_325,1.5 VA-BA junction; R-3.1 ICA infraclinoid C1-C5,Right Infraclinoid ICA,True,Basilar; ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Other Posterior Circulation; Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_327,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_330,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_334,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_336,4.1 Acom complex,Left ACA,False,ACom,ACA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_342,R-5.3 M1-M2 junction,Right ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center1_mr_349,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_350,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_354,L-5.1 M1 trunk,Right Infraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_359,L-3.3 ICA C6-nonOA; 4.1 Acom complex,Right Infraclinoid ICA,False,ICA; ACom,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Anterior Communicating Artery; Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_364,R-3.3 ICA C6-nonOA,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_365,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_374,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_386,NEGATIVE,Anterior Communicating Artery,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_393,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_396,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_398,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_401,R-3.1 ICA infraclinoid C1-C5; L-3.3 ICA C6-nonOA,Right Infraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery; Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_411,L-3.3 ICA C6-nonOA,Left Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_414,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_419,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_428,L-5.3 M1-M2 junction,Right MCA,False,MCA,MCA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_436,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_439,L-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_443,4.1 Acom complex,Right Infraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_463,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_474,L-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_477,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_483,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_489,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_490,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_494,R-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_496,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_499,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_501,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_509,L-3.1 ICA infraclinoid C1-C5,Left Infraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_516,R-3.1 ICA infraclinoid C1-C5; R-5.3 M1-M2 junction,Right Infraclinoid ICA,True,ICA; MCA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery; Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_522,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_523,L-1.9 BA-SCA junction; R-3.6 ICA C7-nonBranch,Right Infraclinoid ICA,False,Basilar; ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Other Posterior Circulation; Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_525,R-3.1 ICA infraclinoid C1-C5; R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery; Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_527,L-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_528,R-3.4 ICA C7-Pcom-junction,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center1_mr_538,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_554,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_560,R-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_561,R-1.9 BA-SCA junction,Left Infraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center1_mr_572,R-3.3 ICA C6-nonOA,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_577,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_581,L-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_585,R-1.7 BA-AICA junction,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Other Posterior Circulation
+topaneu_center1_mr_586,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_596,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_605,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_607,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_612,4.1 Acom complex,Right Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_614,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_615,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_625,L-3.7 ICA C7-terminus; R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery; Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_626,R-5.3 M1-M2 junction,Left Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center1_mr_630,4.1 Acom complex,Right Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_631,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_637,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_638,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_647,R-5.3 M1-M2 junction,Other Posterior Circulation,False,MCA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center1_mr_653,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_660,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_664,R-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_670,R-3.3 ICA C6-nonOA; L-5.3 M1-M2 junction,Right Infraclinoid ICA,False,ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Left Middle Cerebral Artery
+topaneu_center1_mr_681,L-3.7 ICA C7-terminus,Left Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_682,L-4.3 A2,Right Supraclinoid ICA,False,ACA,ICA,MISALIGNED,Mapped P3 GT: Left Anterior Cerebral Artery
+topaneu_center1_mr_693,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_694,R-3.7 ICA C7-terminus,Right ACA,False,ICA,ACA,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_697,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_702,L-3.2 ICA C6-OA-junction; R-3.3 ICA C6-nonOA,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_713,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_720,L-3.1 ICA infraclinoid C1-C5,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_727,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_729,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_731,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_732,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_740,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_741,L-3.3 ICA C6-nonOA,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_742,L-3.3 ICA C6-nonOA,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_744,L-3.5 ICA C7-AChA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_750,L-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_760,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_763,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_765,L-3.3 ICA C6-nonOA,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_770,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_772,L-3.1 ICA infraclinoid C1-C5; R-3.3 ICA C6-nonOA,Left Infraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_774,R-3.5 ICA C7-AChA-junction,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_775,NEGATIVE,Right MCA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_776,R-3.7 ICA C7-terminus,Right ACA,False,ICA,ACA,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_788,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_789,R-3.4 ICA C7-Pcom-junction,Left Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center1_mr_790,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_792,L-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_795,R-3.1 ICA infraclinoid C1-C5; L-3.3 ICA C6-nonOA,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery; Right Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_797,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_800,L-2.2 P3P4,Right MCA,False,Other,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center1_mr_804,L-5.3 M1-M2 junction,Right Infraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_807,4.1 Acom complex,Left Infraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center1_mr_810,L-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_816,R-3.4 ICA C7-Pcom-junction,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center1_mr_819,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_823,NEGATIVE,Anterior Communicating Artery,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_840,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_842,R-5.3 M1-M2 junction,Left ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center1_mr_848,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_850,NEGATIVE,Right Pcom,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_871,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_877,R-1.3 VA-PICA junction; R-5.2 M1 early bifurcation,Anterior Communicating Artery,False,ICA; MCA,ACom,MISALIGNED,Mapped P3 GT: Other Posterior Circulation; Right Middle Cerebral Artery
+topaneu_center1_mr_891,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_892,R-4.2 A1,Left ACA,False,ACA,ACA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center1_mr_895,1.5 VA-BA junction; R-4.4 A3; R-5.2 M1 early bifurcation; L-5.2 M1 early bifurcation,Left ACA,False,Basilar; ACA; MCA,ACA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Other Posterior Circulation; Left Middle Cerebral Artery; Right Middle Cerebral Artery; Right Anterior Cerebral Artery
+topaneu_center1_mr_896,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_902,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_909,L-3.3 ICA C6-nonOA,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_910,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_911,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_917,L-3.1 ICA infraclinoid C1-C5; 4.1 Acom complex,Left ACA,False,ICA; ACom,ACA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery; Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_920,NEGATIVE,Other Posterior Circulation,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_921,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_922,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_924,NEGATIVE,Other Posterior Circulation,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_926,L-3.1 ICA infraclinoid C1-C5,Right Pcom,False,ICA,PCom,MISALIGNED,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center1_mr_928,L-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_939,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_940,NEGATIVE,Left Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_942,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_944,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_959,NEGATIVE,Right Supraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_961,NEGATIVE,Right Infraclinoid ICA,True,NONE,N/A (Normal),TRUE_NEGATIVE,Non-aneurysm case
+topaneu_center1_mr_975,R-3.3 ICA C6-nonOA,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center1_mr_981,L-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center1_mr_991,1.10 BA tip,Right Supraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Basilar Tip
+topaneu_center2_ct_105,L-3.2 ICA C6-OA-junction,Left Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center2_ct_107,R-3.3 ICA C6-nonOA,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_ct_108,R-4.4 A3,Right MCA,False,ACA,MCA,MISALIGNED,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center2_ct_109,4.1 Acom complex,Left ACA,False,ACom,ACA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_ct_112,R-5.3 M1-M2 junction,Left MCA,False,MCA,MCA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_ct_113,L-3.1 ICA infraclinoid C1-C5,Other Posterior Circulation,False,ICA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center2_ct_118,4.1 Acom complex; R-5.2 M1 early bifurcation,Left Supraclinoid ICA,False,MCA; ACom,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery; Anterior Communicating Artery
+topaneu_center2_ct_119,R-5.3 M1-M2 junction,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_ct_120,R-5.3 Distal-M2M3,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_ct_125,L-4.4 A3,Left Supraclinoid ICA,False,ACA,ICA,MISALIGNED,Mapped P3 GT: Left Anterior Cerebral Artery
+topaneu_center2_ct_126,R-5.3 M1-M2 junction; L-5.3 M1-M2 junction,Left MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery; Left Middle Cerebral Artery
+topaneu_center2_ct_127,R-4.4 A3,Left Supraclinoid ICA,False,ACA,ICA,MISALIGNED,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center2_ct_128,R-3.2 ICA C6-OA-junction,Other Posterior Circulation,False,ICA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_ct_130,R-3.4 ICA C7-Pcom-junction; R-3.7 ICA C7-terminus,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Right Posterior Communicating Artery
+topaneu_center2_ct_134,L-3.4 ICA C7-Pcom-junction,Left Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Posterior Communicating Artery
+topaneu_center2_ct_137,1.10 BA tip,Left Pcom,False,Basilar,PCom,MISALIGNED,Mapped P3 GT: Basilar Tip
+topaneu_center2_ct_138,4.1 Acom complex,Right Infraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_ct_141,4.1 Acom complex; L-4.4 A3,Left MCA,False,ACA; ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery; Left Anterior Cerebral Artery
+topaneu_center2_ct_142,R-5.3 M1-M2 junction,Left Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_ct_144,4.1 Acom complex,Right Infraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_ct_147,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_ct_150,R-3.6 ICA C7-nonBranch; R-5.1 M1 trunk; L-5.1 M1 trunk; R-5.2 M1 early bifurcation,Right MCA,True,ICA; MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery; Right Supraclinoid Internal Carotid Artery; Left Middle Cerebral Artery
+topaneu_center2_ct_154,R-1.3 VA-PICA junction,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Other Posterior Circulation
+topaneu_center2_ct_156,1.4 BA trunk,Right Infraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center2_ct_160,R-5.1 M1 trunk; L-5.3 M1-M2 junction,Other Posterior Circulation,False,MCA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery; Left Middle Cerebral Artery
+topaneu_center2_ct_161,4.1 Acom complex,Right Infraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_ct_162,1.10 BA tip,Other Posterior Circulation,False,Basilar,Posterior Circulation,MISALIGNED,Mapped P3 GT: Basilar Tip
+topaneu_center2_ct_163,R-3.5 ICA C7-AChA-junction,Left Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_ct_164,L-4.2 A1,Left Supraclinoid ICA,False,ACA,ICA,MISALIGNED,Mapped P3 GT: Left Anterior Cerebral Artery
+topaneu_center2_ct_165,R-3.5 ICA C7-AChA-junction,Left Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_ct_166,1.10 BA tip; R-3.2 ICA C6-OA-junction,Left Supraclinoid ICA,False,Basilar; ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Basilar Tip
+topaneu_center2_ct_167,L-1.3 VA-PICA junction,Left MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center2_ct_169,R-5.1 M1 trunk,Left Pcom,False,MCA,PCom,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_ct_170,L-3.7 ICA C7-terminus,Left Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center2_ct_171,R-5.2 M1 early bifurcation,Right Infraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_ct_172,1.10 BA tip; R-3.4 ICA C7-Pcom-junction; L-3.4 ICA C7-Pcom-junction; R-5.3 M1-M2 junction,Left Supraclinoid ICA,False,Basilar; ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery; Left Posterior Communicating Artery; Right Posterior Communicating Artery; Basilar Tip
+topaneu_center2_ct_173,R-3.4 ICA C7-Pcom-junction,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center2_ct_174,R-3.4 ICA C7-Pcom-junction; R-3.5 ICA C7-AChA-junction,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Right Posterior Communicating Artery
+topaneu_center2_ct_175,L-5.3 M1-M2 junction,Left MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center2_ct_184,L-5.3 M1-M2 junction,Right MCA,False,MCA,MCA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center2_ct_189,R-3.4 ICA C7-Pcom-junction,Left MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center2_ct_190,R-5.3 M1-M2 junction,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_ct_191,L-3.5 ICA C7-AChA-junction,Left Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center2_ct_192,R-3.2 ICA C6-OA-junction; R-3.5 ICA C7-AChA-junction,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_ct_193,R-5.3 M1-M2 junction,Left ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_ct_196,4.1 Acom complex; R-4.3 A2; R-5.3 M1-M2 junction,Right MCA,True,MCA; ACA; ACom,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery; Anterior Communicating Artery; Right Anterior Cerebral Artery
+topaneu_center2_ct_197,R-4.2 A1,Left Supraclinoid ICA,False,ACA,ICA,MISALIGNED,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center2_mr_002,L-5.3 M1-M2 junction,Right Pcom,False,MCA,PCom,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center2_mr_004,1.10 BA tip; R-5.3 M1-M2 junction,Other Posterior Circulation,False,Basilar; MCA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery; Basilar Tip
+topaneu_center2_mr_007,R-5.2 M1 early bifurcation,Right Infraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_010,R-3.3 ICA C6-nonOA,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_mr_011,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_mr_012,R-3.1 ICA infraclinoid C1-C5; R-5.2 M1 early bifurcation,Left Supraclinoid ICA,False,ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery; Right Infraclinoid Internal Carotid Artery
+topaneu_center2_mr_016,L-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center2_mr_017,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_mr_018,4.1 Acom complex,Right Infraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_mr_019,R-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Infraclinoid Internal Carotid Artery
+topaneu_center2_mr_020,R-3.3 ICA C6-nonOA,Anterior Communicating Artery,False,ICA,ACom,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_mr_025,R-5.3 M1-M2 junction,Left ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_028,R-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Infraclinoid Internal Carotid Artery
+topaneu_center2_mr_029,R-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_mr_031,R-5.1 M1 trunk,Right ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_032,R-5.2 M1 early bifurcation; R-5.3 M1-M2 junction,Left ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_034,R-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Infraclinoid Internal Carotid Artery
+topaneu_center2_mr_035,R-5.2 M1 early bifurcation,Right Pcom,False,MCA,PCom,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_038,L-5.3 M1-M2 junction,Left MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center2_mr_042,L-3.3 ICA C6-nonOA,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center2_mr_044,R-3.7 ICA C7-terminus,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center2_mr_047,R-5.3 M1-M2 junction,Right ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_048,R-5.3 M1-M2 junction,Right Infraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_049,R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_050,R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_051,L-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center2_mr_054,4.1 Acom complex,Right Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_mr_055,R-3.1 ICA infraclinoid C1-C5,Right Infraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Infraclinoid Internal Carotid Artery
+topaneu_center2_mr_056,R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_057,L-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center2_mr_058,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center2_mr_069,L-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center2_mr_074,R-3.1 ICA infraclinoid C1-C5; R-3.4 ICA C7-Pcom-junction; L-3.4 ICA C7-Pcom-junction; L-5.3 M1-M2 junction,Left Supraclinoid ICA,False,ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Posterior Communicating Artery; Left Middle Cerebral Artery; Right Infraclinoid Internal Carotid Artery; Right Posterior Communicating Artery
+topaneu_center2_mr_077,L-3.4 ICA C7-Pcom-junction; L-3.5 ICA C7-AChA-junction,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery; Left Posterior Communicating Artery
+topaneu_center2_mr_078,R-4.2 A1; L-5.3 M1-M2 junction,Left ACA,False,ACA; MCA,ACA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Middle Cerebral Artery; Right Anterior Cerebral Artery
+topaneu_center2_mr_079,R-5.3 M1-M2 junction,Right ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center2_mr_080,1.10 BA tip; R-4.4 A3; R-5.3 M1-M2 junction; L-5.3 M1-M2 junction,Left Supraclinoid ICA,False,Basilar; ACA; MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery; Left Middle Cerebral Artery; Right Anterior Cerebral Artery; Basilar Tip
+topaneu_center2_mr_083,L-3.1 ICA infraclinoid C1-C5; L-3.2 ICA C6-OA-junction; R-3.3 ICA C6-nonOA,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Left Supraclinoid Internal Carotid Artery; Left Infraclinoid Internal Carotid Artery
+topaneu_center2_mr_085,L-1.3 VA-PICA junction; L-2.1 P1P2; L-3.5 ICA C7-AChA-junction; R-5.3 M1-M2 junction,Left Infraclinoid ICA,False,ICA; MCA; Posterior Circulation,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Other Posterior Circulation; Left Supraclinoid Internal Carotid Artery; Right Middle Cerebral Artery
+topaneu_center2_mr_086,R-3.1 ICA infraclinoid C1-C5; R-3.3 ICA C6-nonOA,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Right Infraclinoid Internal Carotid Artery
+topaneu_center4_ct_002,L-3.3 ICA C6-nonOA; L-3.4 ICA C7-Pcom-junction; L-5.3 M1-M2 junction,Right MCA,False,ICA; MCA,MCA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery; Left Middle Cerebral Artery; Left Posterior Communicating Artery
+topaneu_center4_ct_005,L-3.4 ICA C7-Pcom-junction,Left Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Posterior Communicating Artery
+topaneu_center4_ct_008_1,R-5.2 M1 early bifurcation,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center4_ct_008_2,R-5.2 M1 early bifurcation,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center4_ct_009,L-5.2 M1 early bifurcation,Right Infraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center4_ct_012,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_019,L-3.4 ICA C7-Pcom-junction,Left Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Posterior Communicating Artery
+topaneu_center4_ct_020_1,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_020_2,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_020_3,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_023,R-3.6 ICA C7-nonBranch,Left Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center4_ct_025_1,R-5.3 M1-M2 junction,Left MCA,False,MCA,MCA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center4_ct_025_2,R-5.3 M1-M2 junction; L-5.3 M1-M2 junction,Left MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery; Left Middle Cerebral Artery
+topaneu_center4_ct_030,4.1 Acom complex,Right Infraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_034_1,R-3.4 ICA C7-Pcom-junction,Other Posterior Circulation,False,ICA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center4_ct_034_2,R-3.4 ICA C7-Pcom-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center4_ct_037,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_041,R-3.4 ICA C7-Pcom-junction,Other Posterior Circulation,False,ICA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center4_ct_042_2,R-5.2 M1 early bifurcation; L-5.3 M1-M2 junction,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery; Left Middle Cerebral Artery
+topaneu_center4_ct_045,L-3.3 ICA C6-nonOA,Left Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center4_ct_047,R-5.3 M1-M2 junction,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center4_ct_048,L-5.3 M1-M2 junction,Right MCA,False,MCA,MCA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center4_ct_051_1,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_051_2,4.1 Acom complex,Left ACA,False,ACom,ACA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_055,R-1.3 VA-PICA junction,Other Posterior Circulation,True,ICA,Posterior Circulation,EXACT_LOCATION_MATCH,Mapped P3 GT: Other Posterior Circulation
+topaneu_center4_ct_057,L-5.2 M1 early bifurcation,Right MCA,False,MCA,MCA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center4_ct_059,R-3.5 ICA C7-AChA-junction; R-3.6 ICA C7-nonBranch,Left Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center4_ct_060,1.10 BA tip; 4.1 Acom complex,Left MCA,False,Basilar; ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery; Basilar Tip
+topaneu_center4_ct_062_1,R-5.3 M1-M2 junction; L-5.3 M1-M2 junction,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery; Left Middle Cerebral Artery
+topaneu_center4_ct_062_2,R-5.3 M1-M2 junction,Left Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center4_ct_063,L-3.4 ICA C7-Pcom-junction,Left Pcom,True,ICA,PCom,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Posterior Communicating Artery
+topaneu_center4_ct_064,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_065,R-5.3 M1-M2 junction,Right Infraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center4_ct_067,4.1 Acom complex,Left ACA,False,ACom,ACA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_070,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_072,R-3.4 ICA C7-Pcom-junction,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center4_ct_074,L-3.3 ICA C6-nonOA; L-3.4 ICA C7-Pcom-junction,Other Posterior Circulation,False,ICA,Posterior Circulation,MISALIGNED,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery; Left Posterior Communicating Artery
+topaneu_center4_ct_083,L-1.9 BA-SCA junction; R-3.5 ICA C7-AChA-junction; L-3.5 ICA C7-AChA-junction; L-3.7 ICA C7-terminus,Right MCA,False,Basilar; ICA,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation; Right Supraclinoid Internal Carotid Artery; Left Supraclinoid Internal Carotid Artery
+topaneu_center4_ct_087,4.1 Acom complex,Right MCA,False,ACom,MCA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_093,1.10 BA tip,Basilar Tip,True,Basilar,Basilar,EXACT_LOCATION_MATCH,Mapped P3 GT: Basilar Tip
+topaneu_center4_ct_094,R-5.3 M1-M2 junction,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center4_ct_097,R-3.4 ICA C7-Pcom-junction; R-5.3 M1-M2 junction,Right ACA,False,ICA; MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery; Right Posterior Communicating Artery
+topaneu_center4_ct_101,L-3.4 ICA C7-Pcom-junction; R-5.3 M1-M2 junction,Right Infraclinoid ICA,False,ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery; Left Posterior Communicating Artery
+topaneu_center4_ct_102,R-4.5 Distal ACA branches; L-4.5 Distal ACA branches,Left MCA,False,ACA,MCA,MISALIGNED,Mapped P3 GT: Left Anterior Cerebral Artery; Right Anterior Cerebral Artery
+topaneu_center4_ct_103,R-3.6 ICA C7-nonBranch,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center4_ct_104,L-3.1 ICA infraclinoid C1-C5; L-3.6 ICA C7-nonBranch,Left Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery; Left Infraclinoid Internal Carotid Artery
+topaneu_center4_ct_105,L-1.1 VA trunk; L-5.3 M1-M2 junction,Left Supraclinoid ICA,False,MCA; Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation; Left Middle Cerebral Artery
+topaneu_center4_ct_106,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_107,L-5.2 M1 early bifurcation,Left MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center4_ct_108,R-3.4 ICA C7-Pcom-junction; L-3.6 ICA C7-nonBranch,Left Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery; Right Posterior Communicating Artery
+topaneu_center4_ct_115,R-3.4 ICA C7-Pcom-junction,Left ACA,False,ICA,ACA,MISALIGNED,Mapped P3 GT: Right Posterior Communicating Artery
+topaneu_center4_ct_116,L-3.6 ICA C7-nonBranch,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center4_ct_119,4.1 Acom complex,Left ACA,False,ACom,ACA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center4_ct_122,R-5.3 M1-M2 junction,Right MCA,True,MCA,MCA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center4_ct_127,R-1.1 VA trunk,Left ACA,False,Posterior Circulation,ACA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center4_ct_129,R-1.9 BA-SCA junction,Other Posterior Circulation,True,Basilar,Posterior Circulation,EXACT_LOCATION_MATCH,Mapped P3 GT: Other Posterior Circulation
+topaneu_center4_ct_134,L-3.4 ICA C7-Pcom-junction; L-3.5 ICA C7-AChA-junction,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery; Left Posterior Communicating Artery
+topaneu_center4_ct_140,L-3.1 ICA infraclinoid C1-C5,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center4_ct_193,R-3.6 ICA C7-nonBranch,Left Pcom,False,ICA,PCom,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center4_ct_200,L-1.1 VA trunk,Left MCA,False,Posterior Circulation,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center4_ct_201,R-1.1 VA trunk,Left Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_007,1.5 VA-BA junction,Left MCA,False,Basilar,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_009,1.4 BA trunk,Right MCA,False,Basilar,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_010,L-1.1 VA trunk,Left Supraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_011,1.4 BA trunk,Left Supraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_015,L-1.1 VA trunk,Right Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_016,1.4 BA trunk,Left Supraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_021,L-1.1 VA trunk,Right Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_022,1.4 BA trunk,Left MCA,False,Basilar,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_023,1.5 VA-BA junction,Left Supraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_024,1.4 BA trunk,Left Infraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_025,L-1.1 VA trunk,Left Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_027,R-1.1 VA trunk,Anterior Communicating Artery,False,Posterior Circulation,ACom,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_028,L-1.1 VA trunk,Right Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_029,L-1.1 VA trunk,Anterior Communicating Artery,False,Posterior Circulation,ACom,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_030,L-1.1 VA trunk,Right Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_031,R-1.1 VA trunk,Left MCA,False,Posterior Circulation,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_032,R-1.1 VA trunk,Left Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_033,R-1.1 VA trunk,Anterior Communicating Artery,False,Posterior Circulation,ACom,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_034,L-1.1 VA trunk,Right Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_036,1.4 BA trunk,Left MCA,False,Basilar,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_037,1.5 VA-BA junction,Left Infraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_038,R-1.1 VA trunk,Left MCA,False,Posterior Circulation,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_039,1.5 VA-BA junction,Right MCA,False,Basilar,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_041,R-1.1 VA trunk,Right Infraclinoid ICA,False,Posterior Circulation,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_052,R-1.1 VA trunk,Left ACA,False,Posterior Circulation,ACA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_061,1.10 BA tip; R-3.1 ICA infraclinoid C1-C5; L-3.1 ICA infraclinoid C1-C5; R-5.3 M1-M2 junction,Right Infraclinoid ICA,True,Basilar; ICA; MCA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Middle Cerebral Artery; Left Infraclinoid Internal Carotid Artery; Right Infraclinoid Internal Carotid Artery; Basilar Tip
+topaneu_center5_mr_063,R-4.3 A2,Right MCA,False,ACA,MCA,MISALIGNED,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center5_mr_068,L-1.1 VA trunk,Right ACA,False,Posterior Circulation,ACA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_074,1.4 BA trunk,Right Infraclinoid ICA,False,Basilar,ICA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_079,1.4 BA trunk,Left MCA,False,Basilar,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_081,L-1.1 VA trunk,Left MCA,False,Posterior Circulation,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_082,1.5 VA-BA junction,Left MCA,False,Basilar,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_451,R-4.2 A1,Right Supraclinoid ICA,False,ACA,ICA,MISALIGNED,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center5_mr_452,R-3.5 ICA C7-AChA-junction; R-4.4 A3,Left MCA,False,ICA; ACA,MCA,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Right Anterior Cerebral Artery
+topaneu_center5_mr_453,L-5.3 M1-M2 junction,Right Pcom,False,MCA,PCom,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center5_mr_454,R-4.3 A2,Left ACA,False,ACA,ACA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center5_mr_455,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center5_mr_457,R-4.2 A1; R-5.3 M1-M2 junction,Left ACA,False,ACA; MCA,ACA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery; Right Anterior Cerebral Artery
+topaneu_center5_mr_458,1.10 BA tip; R-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,Basilar; ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Infraclinoid Internal Carotid Artery; Basilar Tip
+topaneu_center5_mr_459,L-3.1 ICA infraclinoid C1-C5,Left Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center5_mr_460,L-3.6 ICA C7-nonBranch,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_461,R-5.3 M1-M2 junction,Left ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center5_mr_462,1.4 BA trunk,Right MCA,False,Basilar,MCA,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_464,R-4.4 A3; L-4.4 A3,Left MCA,False,ACA,MCA,MISALIGNED,Mapped P3 GT: Left Anterior Cerebral Artery; Right Anterior Cerebral Artery
+topaneu_center5_mr_465,L-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_466,L-3.2 ICA C6-OA-junction,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_467,4.1 Acom complex,Right Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center5_mr_469,L-3.3 ICA C6-nonOA,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_470,L-3.3 ICA C6-nonOA,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_471,L-5.3 M1-M2 junction,Right ACA,False,MCA,ACA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center5_mr_472,L-3.1 ICA infraclinoid C1-C5,Right Supraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Infraclinoid Internal Carotid Artery
+topaneu_center5_mr_473,R-4.4 A3,Left MCA,False,ACA,MCA,MISALIGNED,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center5_mr_474,R-3.5 ICA C7-AChA-junction,Right Supraclinoid ICA,True,ICA,ICA,EXACT_LOCATION_MATCH,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_475,R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center5_mr_476,L-3.3 ICA C6-nonOA,Right Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Left Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_478,L-1.1 VA trunk,Left Pcom,False,Posterior Circulation,PCom,MISALIGNED,Mapped P3 GT: Other Posterior Circulation
+topaneu_center5_mr_479,L-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Left Middle Cerebral Artery
+topaneu_center5_mr_480,R-1.3 VA-PICA junction; R-5.2 M1 early bifurcation,Left Supraclinoid ICA,False,ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Other Posterior Circulation; Right Middle Cerebral Artery
+topaneu_center5_mr_481,R-3.3 ICA C6-nonOA; L-3.6 ICA C7-nonBranch,Left Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Left Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_484,L-4.2 A1,Right Supraclinoid ICA,False,ACA,ICA,MISALIGNED,Mapped P3 GT: Left Anterior Cerebral Artery
+topaneu_center5_mr_485,4.1 Acom complex,Left Supraclinoid ICA,False,ACom,ICA,MISALIGNED,Mapped P3 GT: Anterior Communicating Artery
+topaneu_center5_mr_486,L-3.6 ICA C7-nonBranch; R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,ICA; MCA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Middle Cerebral Artery; Left Supraclinoid Internal Carotid Artery
+topaneu_center5_mr_487,R-3.1 ICA infraclinoid C1-C5; R-3.7 ICA C7-terminus,Left Infraclinoid ICA,False,ICA,ICA,VESSEL_ALIGNED_ONLY,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery; Right Infraclinoid Internal Carotid Artery
+topaneu_center5_mr_488,L-4.2 A1,Right Supraclinoid ICA,False,ACA,ICA,MISALIGNED,Mapped P3 GT: Left Anterior Cerebral Artery
+topaneu_center5_mr_489,R-4.4 A3,Left MCA,False,ACA,MCA,MISALIGNED,Mapped P3 GT: Right Anterior Cerebral Artery
+topaneu_center5_mr_490,R-5.3 M1-M2 junction,Right Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center5_mr_491,R-5.3 M1-M2 junction,Left Supraclinoid ICA,False,MCA,ICA,MISALIGNED,Mapped P3 GT: Right Middle Cerebral Artery
+topaneu_center5_mr_492,R-3.7 ICA C7-terminus,Right MCA,False,ICA,MCA,MISALIGNED,Mapped P3 GT: Right Supraclinoid Internal Carotid Artery

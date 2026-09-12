@@ -28,35 +28,97 @@ location_map = {v:k for k,v in json.load(open(ROOT/"location_mapping.json"))["la
 type_map     = {v:k for k,v in json.load(open(ROOT/"type_mapping.json"))["labels"].items()}
 
 def normalize(vol, p1=1, p99=99):
-    lo, hi = np.percentile(vol, p1), np.percentile(vol, p99)
-    return np.clip((vol - lo) / (hi - lo + 1e-8), 0, 1)
+    lo, hi = float(np.percentile(vol, p1)), float(np.percentile(vol, p99))
+    if hi <= lo:
+        hi = lo + 1e-6
+    return np.clip((vol - lo) / (hi - lo), 0, 1)
 
-def mid_slices(vol):
-    """Return axial, coronal, sagittal mid-slices."""
-    sx, sy, sz = vol.shape[:3]
-    return vol[sx//2, :, :], vol[:, sy//2, :], vol[:, :, sz//2]
+def save_orthogonal(case_id, img_data, mask_data=None, mask_cmap=None, suffix="", alpha=0.55, title="", slices=None):
+    if slices is None:
+        slices = (img_data.shape[0]//2, img_data.shape[1]//2, img_data.shape[2]//2)
+    sx, sy, sz = slices
 
-def save_orthogonal(case_id, img_data, mask_data=None, mask_cmap=None, suffix="", alpha=0.4, title=""):
     fig, axes = plt.subplots(1, 3, figsize=(15, 5))
-    planes = [("Sagittal", img_data[img_data.shape[0]//2, :, :]),
-              ("Coronal",  img_data[:, img_data.shape[1]//2, :]),
-              ("Axial",    img_data[:, :, img_data.shape[2]//2])]
-    for ax, (plane_name, sl) in zip(axes, planes):
+    planes = [("Sagittal", f"x={sx}", img_data[sx, :, :]),
+              ("Coronal",  f"y={sy}", img_data[:, sy, :]),
+              ("Axial",    f"z={sz}", img_data[:, :, sz])]
+    for ax, (plane_name, slice_tag, sl) in zip(axes, planes):
         sl_norm = normalize(sl)
         ax.imshow(sl_norm.T, cmap="gray", origin="lower", aspect="auto")
         if mask_data is not None:
-            msl = [mask_data[mask_data.shape[0]//2, :, :],
-                   mask_data[:, mask_data.shape[1]//2, :],
-                   mask_data[:, :, mask_data.shape[2]//2]][["Sagittal","Coronal","Axial"].index(plane_name)]
-            masked = np.ma.masked_where(msl == 0, msl)
-            ax.imshow(masked.T, cmap=mask_cmap or "jet", alpha=alpha, origin="lower", aspect="auto",
-                      vmin=1, vmax=max(mask_data.max(), 1))
-        ax.set_title(f"{plane_name}", fontsize=10)
+            msl = [mask_data[sx, :, :],
+                   mask_data[:, sy, :],
+                   mask_data[:, :, sz]][["Sagittal","Coronal","Axial"].index(plane_name)]
+            nz = int(np.count_nonzero(msl))
+            if nz > 0:
+                masked = np.ma.masked_where(msl == 0, msl)
+                max_val = max(int(np.max(mask_data)), 1)
+                ax.imshow(masked.T, cmap=mask_cmap or "tab20", alpha=alpha, origin="lower", aspect="auto",
+                          interpolation="nearest", vmin=1, vmax=max_val)
+                ax.set_title(f"{plane_name} ({slice_tag}) — {nz} voxels", fontsize=10)
+            else:
+                ax.set_title(f"{plane_name} ({slice_tag}) — [no mask]", fontsize=10, color="#666666")
+        else:
+            ax.set_title(f"{plane_name} ({slice_tag})", fontsize=10)
         ax.axis("off")
-    fig.suptitle(f"{case_id} — {title}", fontsize=11)
+    fig.suptitle(f"{case_id} — {title}", fontsize=11, fontweight="bold")
     plt.tight_layout()
     out = OUT_VIZ / f"{case_id}_{suffix}.png"
-    plt.savefig(str(out), dpi=100, bbox_inches="tight")
+    plt.savefig(str(out), dpi=120, bbox_inches="tight")
+    plt.close()
+    return out
+
+def save_diagnostic_2x2(case_id, img_data, ves_data, loc_data, typ_data, z_slice):
+    img_norm = normalize(img_data)
+    img_sl = img_norm[:, :, z_slice]
+    ves_sl = ves_data[:, :, z_slice] if ves_data is not None else np.zeros_like(img_sl)
+    loc_sl = loc_data[:, :, z_slice] if loc_data is not None else np.zeros_like(img_sl)
+    typ_sl = typ_data[:, :, z_slice] if typ_data is not None else np.zeros_like(img_sl)
+
+    fig, axes = plt.subplots(2, 2, figsize=(12, 12))
+    fig.suptitle(f"{case_id} — Diagnostic 2x2 Overlay (Axial Slice z={z_slice})", fontsize=13, fontweight="bold")
+
+    # Raw
+    axes[0, 0].imshow(img_sl.T, cmap="gray", origin="lower", aspect="auto")
+    axes[0, 0].set_title(f"Raw Scan (z={z_slice})", fontsize=11)
+    axes[0, 0].axis("off")
+
+    # Vessel
+    axes[0, 1].imshow(img_sl.T, cmap="gray", origin="lower", aspect="auto")
+    if np.any(ves_sl > 0):
+        v_masked = np.ma.masked_where(ves_sl == 0, ves_sl)
+        axes[0, 1].imshow(v_masked.T, cmap="autumn", alpha=0.45, origin="lower", aspect="auto",
+                          interpolation="nearest", vmin=1, vmax=max(int(np.max(ves_data)), 1))
+        axes[0, 1].set_title(f"Vessel Overlay ({int(np.count_nonzero(ves_sl))} voxels)", fontsize=11)
+    else:
+        axes[0, 1].set_title("Vessel Overlay [empty]", fontsize=11, color="#666666")
+    axes[0, 1].axis("off")
+
+    # Location
+    axes[1, 0].imshow(img_sl.T, cmap="gray", origin="lower", aspect="auto")
+    if np.any(loc_sl > 0):
+        l_masked = np.ma.masked_where(loc_sl == 0, loc_sl)
+        axes[1, 0].imshow(l_masked.T, cmap="tab20", alpha=0.60, origin="lower", aspect="auto",
+                          interpolation="nearest", vmin=1, vmax=max(int(np.max(loc_data)), 1))
+        axes[1, 0].set_title(f"Location Overlay ({int(np.count_nonzero(loc_sl))} voxels)", fontsize=11)
+    else:
+        axes[1, 0].set_title("Location Overlay [empty]", fontsize=11, color="#666666")
+    axes[1, 0].axis("off")
+
+    # Type
+    axes[1, 1].imshow(img_sl.T, cmap="gray", origin="lower", aspect="auto")
+    if np.any(typ_sl > 0):
+        t_masked = np.ma.masked_where(typ_sl == 0, typ_sl)
+        axes[1, 1].imshow(t_masked.T, cmap="Set1", alpha=0.60, origin="lower", aspect="auto",
+                          interpolation="nearest", vmin=1, vmax=max(int(np.max(typ_data)), 1))
+        axes[1, 1].set_title(f"Type Overlay ({int(np.count_nonzero(typ_sl))} voxels)", fontsize=11)
+    else:
+        axes[1, 1].set_title("Type Overlay [empty]", fontsize=11, color="#666666")
+    axes[1, 1].axis("off")
+
+    plt.tight_layout()
+    out = OUT_VIZ / f"{case_id}_diagnostic_2x2.png"
+    plt.savefig(str(out), dpi=120, bbox_inches="tight")
     plt.close()
     return out
 
@@ -96,26 +158,45 @@ for case_id, kind, locs in selected:
 
     try:
         img_data = nib.load(str(img_fp)).get_fdata(dtype=np.float32)
+        ves_data = nib.load(str(ves_fp)).get_fdata(dtype=np.float32) if ves_fp.exists() else None
+        loc_data = nib.load(str(loc_fp)).get_fdata(dtype=np.float32) if loc_fp.exists() else None
+        typ_data = nib.load(str(typ_fp)).get_fdata(dtype=np.float32) if typ_fp.exists() else None
+
+        # Determine focal slice coords (peak lesion voxels if positive, else peak vessel or volume center)
+        if loc_data is not None and np.any(loc_data > 0):
+            sx = int(np.argmax(np.count_nonzero(loc_data, axis=(1, 2))))
+            sy = int(np.argmax(np.count_nonzero(loc_data, axis=(0, 2))))
+            sz = int(np.argmax(np.count_nonzero(loc_data, axis=(0, 1))))
+        elif ves_data is not None and np.any(ves_data > 0):
+            sx = int(np.argmax(np.count_nonzero(ves_data, axis=(1, 2))))
+            sy = int(np.argmax(np.count_nonzero(ves_data, axis=(0, 2))))
+            sz = int(np.argmax(np.count_nonzero(ves_data, axis=(0, 1))))
+        else:
+            sx, sy, sz = img_data.shape[0]//2, img_data.shape[1]//2, img_data.shape[2]//2
+
+        slices = (sx, sy, sz)
+
         # Raw image
-        save_orthogonal(case_id, img_data, suffix="image", title="Raw Image")
+        save_orthogonal(case_id, img_data, suffix="image", title="Raw Image", slices=slices)
 
         # Vessel mask overlay
-        if ves_fp.exists():
-            ves_data = nib.load(str(ves_fp)).get_fdata(dtype=np.float32)
-            save_orthogonal(case_id, img_data, ves_data, suffix="vessel_overlay", title="+ Vessel Mask")
+        if ves_data is not None:
+            save_orthogonal(case_id, img_data, ves_data, mask_cmap="autumn",
+                            suffix="vessel_overlay", title="+ Vessel Mask", slices=slices)
 
         # Location mask overlay
-        if loc_fp.exists():
-            loc_data = nib.load(str(loc_fp)).get_fdata(dtype=np.float32)
-            save_orthogonal(case_id, img_data, loc_data, mask_cmap="nipy_spectral",
-                            suffix="location_overlay", title="+ Location Mask")
+        if loc_data is not None:
+            save_orthogonal(case_id, img_data, loc_data, mask_cmap="tab20",
+                            suffix="location_overlay", title="+ Location Mask", slices=slices)
 
         # Type mask overlay
-        if typ_fp.exists():
-            typ_data = nib.load(str(typ_fp)).get_fdata(dtype=np.float32)
-            save_orthogonal(case_id, img_data, typ_data, mask_cmap="Reds",
-                            suffix="type_overlay", title="+ Type Mask")
-        print(f"    -> saved 4 PNGs")
+        if typ_data is not None:
+            save_orthogonal(case_id, img_data, typ_data, mask_cmap="Set1",
+                            suffix="type_overlay", title="+ Type Mask", slices=slices)
+
+        # Diagnostic 2x2
+        save_diagnostic_2x2(case_id, img_data, ves_data, loc_data, typ_data, z_slice=sz)
+        print(f"    -> saved 4 orthogonal PNGs + 1 diagnostic 2x2 PNG (focal slices: x={sx}, y={sy}, z={sz})")
     except Exception as e:
         print(f"    ERROR: {e}")
 
