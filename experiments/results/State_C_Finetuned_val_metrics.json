@@ -1,0 +1,21 @@
+{
+  "total_samples": 63,
+  "positive_samples": 46,
+  "negative_samples": 17,
+  "accuracy": 0.8888888888888888,
+  "sensitivity": 0.9347826086956522,
+  "specificity": 0.7647058823529411,
+  "precision": 0.9148936170212766,
+  "npv": 0.8125,
+  "f1_score": 0.9247311827956989,
+  "roc_auc": 0.907928388746803,
+  "pr_auc": 0.9654952244147115,
+  "brier_score": 0.11038503689425332,
+  "confusion_matrix": {
+    "tp": 43,
+    "fp": 4,
+    "tn": 13,
+    "fn": 3
+  },
+  "mean_inference_time_ms": 366.7156166500515
+}

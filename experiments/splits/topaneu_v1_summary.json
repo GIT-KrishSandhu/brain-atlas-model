@@ -1,0 +1,47 @@
+{
+  "dataset_name": "TopAneu-26",
+  "total_scans": 415,
+  "total_patients": 408,
+  "random_seed": 42,
+  "splits": {
+    "train": {
+      "total_cases": 290,
+      "percentage_cases": 69.88,
+      "unique_patients": 284,
+      "percentage_patients": 69.61,
+      "positive_cases": 213,
+      "negative_cases": 77,
+      "case_prevalence": 0.7345,
+      "positive_patients": 207,
+      "negative_patients": 77,
+      "mra_count": 213,
+      "cta_count": 77
+    },
+    "val": {
+      "total_cases": 63,
+      "percentage_cases": 15.18,
+      "unique_patients": 62,
+      "percentage_patients": 15.2,
+      "positive_cases": 46,
+      "negative_cases": 17,
+      "case_prevalence": 0.7302,
+      "positive_patients": 45,
+      "negative_patients": 17,
+      "mra_count": 47,
+      "cta_count": 16
+    },
+    "test": {
+      "total_cases": 62,
+      "percentage_cases": 14.94,
+      "unique_patients": 62,
+      "percentage_patients": 15.2,
+      "positive_cases": 45,
+      "negative_cases": 17,
+      "case_prevalence": 0.7258,
+      "positive_patients": 45,
+      "negative_patients": 17,
+      "mra_count": 47,
+      "cta_count": 15
+    }
+  }
+}

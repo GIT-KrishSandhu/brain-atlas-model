@@ -1,0 +1,26 @@
+experiment_id: "P4-P3-001"
+description: "Initial Phase 4 baseline fine-tuning of independent P3 architecture on TopAneu-26"
+seed: 42
+
+# Data
+data_dir: "topaneu_release"
+split_csv: "experiments/splits/topaneu_v1.csv"
+cache_dir: "scratch/cache_224"
+target_size: [224, 224, 224]
+
+# Checkpoint Initialization
+checkpoint_path: "scratch/checkpoints/Dataset660_26classes_resize224_4661/onlyMirror01_lr4e3_100epochs_ps224/fold_0/checkpoint_final.pth"
+
+# Training Hyperparameters
+epochs: 3
+batch_size: 1
+gradient_accumulation_steps: 8
+lr: 1.0e-4
+weight_decay: 1.0e-4
+pos_weight: 1.25
+freeze_encoder: false
+freeze_encoder_stages: 4
+use_amp: true
+
+# Artifacts
+output_dir: "experiments/results"
