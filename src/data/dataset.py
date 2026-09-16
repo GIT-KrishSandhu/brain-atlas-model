@@ -22,7 +22,8 @@ class TopAneuDataset(Dataset):
         data_dir: str = "topaneu_release",
         cache_dir: str = "scratch/cache_224",
         target_size: tuple = (224, 224, 224),
-        preload_to_ram: bool = False
+        preload_to_ram: bool = False,
+        transform = None
     ):
         self.df = split_df.reset_index(drop=True)
         self.data_dir = data_dir
@@ -30,6 +31,7 @@ class TopAneuDataset(Dataset):
         self.cache_dir = cache_dir
         self.target_size = target_size
         self.preload_to_ram = preload_to_ram
+        self.transform = transform
         self.ram_cache = {}
 
         if self.cache_dir:
@@ -80,6 +82,10 @@ class TopAneuDataset(Dataset):
 
             if self.preload_to_ram:
                 self.ram_cache[case_id] = x_tensor
+
+        # Apply stochastic on-the-fly augmentation if configured
+        if self.transform is not None:
+            x_tensor = self.transform(x_tensor)
 
         y_presence = torch.tensor([presence], dtype=torch.float32)
         y_modality = torch.tensor(modality_idx, dtype=torch.long)

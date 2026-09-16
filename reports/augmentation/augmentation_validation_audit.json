@@ -1,0 +1,42 @@
+{
+  "verdicts": {
+    "Gamma transform": {
+      "status": "PASS",
+      "reason": "Dynamic [0,1] rescaling then power-law is mathematically valid on Z-score volumes"
+    },
+    "Contrast variation": {
+      "status": "PASS",
+      "reason": "Multiplicative post-normalization scaling is numerically safe and correctly bounded"
+    },
+    "Gaussian noise": {
+      "status": "PASS",
+      "reason": "sigma=0.05 additive noise is safe and bounded (experimental hyperparameter [INFERRED])"
+    },
+    "Gaussian blur": {
+      "status": "PASS",
+      "reason": "3x3x3 kernel normalized to 1.0; smoothing confirmed, shape preserved"
+    },
+    "Spatial rotation": {
+      "status": "PASS",
+      "reason": "Orthogonal rotation matrix; shape preserved; nearest-neighbor mask labels intact; lesion preserved"
+    },
+    "Spatial translation": {
+      "status": "PASS",
+      "reason": "Normalized shift formula correct; shape preserved; nearest-neighbor mask labels intact; border padding confirmed"
+    },
+    "Noise/blur mutual exclusion": {
+      "status": "PASS",
+      "reason": "Implementation guarantees at most one of noise/blur per sample"
+    },
+    "Config parity": {
+      "status": "PASS",
+      "reason": "All parameters match documented specification"
+    },
+    "Initialization parity": {
+      "status": "PASS",
+      "reason": "AUG-P3-001 is initialized from identical checkpoint with identical hyperparameters"
+    }
+  },
+  "disable_list": [],
+  "experiment_valid": true
+}

@@ -1,0 +1,5 @@
+experiment_id,split,n_samples,n_pos,n_neg,accuracy,sensitivity,specificity,precision,f1_score,roc_auc,pr_auc,brier_score,tp,fp,tn,fn,notes
+P4-P3-001 (A0),val,63,46,17,0.8889,0.9348,0.7647,0.9149,0.9247,0.9079,0.9655,0.1104,43,4,13,3,Phase 4 fine-tuned P3 baseline (no augmentation)
+P4-P3-001 (A0),test,62,45,17,0.7742,0.9556,0.2941,0.7818,0.86,0.8928,0.9626,0.1294,43,12,5,2,Phase 4 fine-tuned P3 baseline (no augmentation)
+AUG-P3-001,val,63,46,17,0.8254,0.9565,0.4706,0.8302,0.8889,0.8875,0.96,0.1248,44,9,8,2,P3 + controlled augmentation
+AUG-P3-001,test,62,45,17,0.7903,0.9778,0.2941,0.7857,0.8713,0.9268,0.9754,0.1259,44,12,5,1,P3 + controlled augmentation

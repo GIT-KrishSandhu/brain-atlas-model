@@ -1,0 +1,42 @@
+experiment_id: "AUG-P3-001"
+description: "Controlled data augmentation fine-tuning of independent P3 architecture on TopAneu-26"
+seed: 42
+
+# Data
+data_dir: "topaneu_release"
+split_csv: "experiments/splits/topaneu_v1.csv"
+cache_dir: "scratch/cache_224"
+target_size: [224, 224, 224]
+
+# Augmentation Parameters (Applied strictly to train split on-the-fly)
+augmentation:
+  enabled: true
+  p_rotation: 0.40
+  max_rotation_deg: 10.0
+  p_translation: 0.40
+  max_translation_voxels: 8.0
+  p_contrast: 0.30
+  contrast_range: [0.90, 1.10]
+  p_gamma: 0.30
+  gamma_range: [0.90, 1.10]
+  p_noise: 0.20
+  noise_sigma: 0.05
+  p_blur: 0.20
+  blur_sigma_range: [0.50, 0.75]
+
+# Checkpoint Initialization
+checkpoint_path: "scratch/checkpoints/Dataset660_26classes_resize224_4661/onlyMirror01_lr4e3_100epochs_ps224/fold_0/checkpoint_final.pth"
+
+# Training Hyperparameters
+epochs: 3
+batch_size: 1
+gradient_accumulation_steps: 8
+lr: 1.0e-4
+weight_decay: 1.0e-4
+pos_weight: 1.25
+freeze_encoder: false
+freeze_encoder_stages: 4
+use_amp: true
+
+# Artifacts
+output_dir: "experiments/results"

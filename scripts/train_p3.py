@@ -11,7 +11,7 @@ if REPO_ROOT not in sys.path:
     sys.path.insert(0, REPO_ROOT)
 
 from src.models.p3 import P3Architecture
-from src.data.dataset import TopAneuDataset
+from src.data import TopAneuDataset, TopAneuAugmentationPipeline
 from src.training.trainer import P3Trainer
 
 
@@ -53,17 +53,49 @@ def main():
 
     print(f"Loaded Splits: Train={len(train_df)} cases, Val={len(val_df)} cases")
 
+    # Build Augmentation Pipeline if enabled
+    aug_config = config.get("augmentation", {})
+    if aug_config.get("enabled", False):
+        print(f"Building TopAneuAugmentationPipeline with configuration:")
+        print(f"  Rotation: p={aug_config.get('p_rotation')}, max_deg={aug_config.get('max_rotation_deg')}")
+        print(f"  Translation: p={aug_config.get('p_translation')}, max_voxels={aug_config.get('max_translation_voxels')}")
+        print(f"  Contrast: p={aug_config.get('p_contrast')}, range={aug_config.get('contrast_range')}")
+        print(f"  Gamma: p={aug_config.get('p_gamma')}, range={aug_config.get('gamma_range')}")
+        print(f"  Noise: p={aug_config.get('p_noise')}, sigma={aug_config.get('noise_sigma')}")
+        print(f"  Blur: p={aug_config.get('p_blur')}, sigma_range={aug_config.get('blur_sigma_range')}")
+        train_transform = TopAneuAugmentationPipeline(
+            p_rotation=float(aug_config.get("p_rotation", 0.40)),
+            max_rotation_deg=float(aug_config.get("max_rotation_deg", 10.0)),
+            p_translation=float(aug_config.get("p_translation", 0.40)),
+            max_translation_voxels=float(aug_config.get("max_translation_voxels", 8.0)),
+            p_contrast=float(aug_config.get("p_contrast", 0.30)),
+            contrast_range=tuple(aug_config.get("contrast_range", [0.90, 1.10])),
+            p_gamma=float(aug_config.get("p_gamma", 0.30)),
+            gamma_range=tuple(aug_config.get("gamma_range", [0.90, 1.10])),
+            p_noise=float(aug_config.get("p_noise", 0.20)),
+            noise_sigma=float(aug_config.get("noise_sigma", 0.05)),
+            p_blur=float(aug_config.get("p_blur", 0.20)),
+            blur_sigma_range=tuple(aug_config.get("blur_sigma_range", [0.50, 0.75])),
+            target_size=tuple(config.get("target_size", [224, 224, 224])),
+            seed=seed
+        )
+    else:
+        print("Data augmentation DISABLED (identity transform).")
+        train_transform = None
+
     train_dataset = TopAneuDataset(
         split_df=train_df,
         data_dir=config.get("data_dir", "topaneu_release"),
         cache_dir=config.get("cache_dir", "scratch/cache_224"),
-        target_size=tuple(config.get("target_size", [224, 224, 224]))
+        target_size=tuple(config.get("target_size", [224, 224, 224])),
+        transform=train_transform
     )
     val_dataset = TopAneuDataset(
         split_df=val_df,
         data_dir=config.get("data_dir", "topaneu_release"),
         cache_dir=config.get("cache_dir", "scratch/cache_224"),
-        target_size=tuple(config.get("target_size", [224, 224, 224]))
+        target_size=tuple(config.get("target_size", [224, 224, 224])),
+        transform=None  # Validation partition is NEVER augmented
     )
 
     # 2. Build Independent Model
